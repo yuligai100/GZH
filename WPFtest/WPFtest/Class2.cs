@@ -10,7 +10,7 @@ namespace WPFtest
     {
         void aaa()
         {
-            Console.WriteLine(" this is sb class2");
+            Console.WriteLine(" this is sb1 class2");
         }
     }
 }
