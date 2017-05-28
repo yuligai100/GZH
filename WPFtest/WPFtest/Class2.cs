@@ -9,5 +9,9 @@ namespace WPFtest
     class Class2
     {
         //this is class2
+        void aaa()
+        {
+            Console.WriteLine(" this is class2");
+        }
     }
 }
