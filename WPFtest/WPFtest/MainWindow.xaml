@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <local:UC_Person x:Name="UC_Trueperson" Margin="0,0,276,20"   Person="{Binding  Path=MainPerson, RelativeSource={RelativeSource FindAncestor ,AncestorType={x:Type Window}}}"></local:UC_Person>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="381,93,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Left" Margin="364,192,0,0" VerticalAlignment="Top" Width="75" Click="button_Copy_Click"/>
+        <Button x:Name="button_Copy1" Content="Button" HorizontalAlignment="Left" Margin="381,30,0,0" VerticalAlignment="Top" Width="75" Click="button_Copy1_Click"/>
+        <Button x:Name="button_Copy2" Content="Button" HorizontalAlignment="Left" Margin="381,147,0,0" VerticalAlignment="Top" Width="75" Click="button_Copy2_Click"/>
     </Grid>
 </Window>

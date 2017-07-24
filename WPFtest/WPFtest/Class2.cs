@@ -13,9 +13,6 @@ namespace WPFtest
             Console.WriteLine(" this is sb1 class2");
         }
         //this is class2
-        void aaa()
-        {
-            Console.WriteLine(" this is master class2");
-        }
+ 
     }
 }
